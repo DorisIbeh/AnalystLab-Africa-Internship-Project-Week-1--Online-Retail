@@ -1,6 +1,8 @@
 E-COMMERCE DATASET CLEANING AND VISUALIZATION DOCUMENTATION
+
 Author: Ibeh Doris Chinelo 
 Dataset: Online Retail Transaction Records
+
  Date: July, 2026.
 
 OBJECTIVE
@@ -16,15 +18,22 @@ The dataset was first loaded into Python using pandas. The file did not load pro
 
 STEPS	ROWS	COLUMNS	ACTION TAKEN
 Raw Dataset (Before cleaning)	It contained 541,909	It contained 8	Loaded Online Retail .csv with latin1 encoding.
+
 Missing Values	541,909	8	Filled missing Description and CustomerID with "Unknown"
+
 Invalid Data Removal	530,104	8	Removed rows where UnitPrice <= 0 or Quantity <= 0
+
 Feature Engineering	530,104	13	Created Revenue, Year, Month, Day, MonthName
+
 Final Clean Dataset	530,104	13	Dataset used for EDA and visualization
 
 NEW COLUMNS ADDED
  Revenue = Quantity * UnitPrice. 
+ 
 Year, Month, Day, MonthName = Extracted from InvoiceDate for trend analysis
+
 NOTE: No rows were dropped due to missing values. Only ∼2.2% of rows were removed due to invalid transactions.
+
 METRIC	VALUE TOTAL
 Revenue	£9,747,747.93
 Unique Customers	4,372
