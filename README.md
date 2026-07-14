@@ -36,9 +36,13 @@ NOTE: No rows were dropped due to missing values. Only ∼2.2% of rows were remo
 
 METRIC	VALUE TOTAL
 Revenue	£9,747,747.93
+
 Unique Customers	4,372
+
 Unique Products	4,070
+
 Countries Served	38
+
 Avg Order Value	£376.36
 
 VISUALIZATIONS CREATED
