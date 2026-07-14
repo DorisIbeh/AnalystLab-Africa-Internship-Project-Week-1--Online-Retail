@@ -18,6 +18,7 @@ DATA CLEANING PROCESS
 The dataset was first loaded into Python using pandas. The file did not load properly with the default encoding, so it was loaded using encoding='latin1'. After loading the data, I checked the structure of the dataset, viewed the first few rows, checked the number of rows and columns, reviewed the data types, and identified missing values.
 
 STEPS	ROWS	COLUMNS	ACTION TAKEN
+
 Raw Dataset (Before cleaning)	It contained 541,909	It contained 8	Loaded Online Retail .csv with latin1 encoding.
 
 Missing Values	541,909	8	Filled missing Description and CustomerID with "Unknown"
